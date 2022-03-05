@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Register {
+  id: String!
+  username: String!
+  login: String!
+  createdAt: String!
+}
+
+type Login {
+  token: String!
+}
+
+type Query {
+  hello: String!
+}
+
+type Mutation {
+  register(username: String!, login: String!, password: String!): Register!
+  login(login: String!, password: String!): Login!
+}

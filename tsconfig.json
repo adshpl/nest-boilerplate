@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "target": "es2017",
+    "module": "commonjs",
+    "paths": {
+      "constants/*": ["constants/*"],
+      "decorators/*": ["decorators/*"],
+      "entities/*": ["entities/*"],
+      "enums/*": ["enums/*"],
+      "exceptions/*": ["exceptions/*"],
+      "guards/*": ["guards/*"],
+      "models/*": ["models/*"],
+      "resolvers/*": ["resolvers/*"],
+      "services/*": ["services/*"],
+      "validators/*": ["validators/*"]
+    },
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "incremental": true
+  }
+}
